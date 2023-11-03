@@ -17,15 +17,15 @@
 [Week01] 01_Array
 ```
 ## commit 규칙
-- commit 메세지 : [문제 출처(플랫폼)] 문제이름 / 난이도 / 문제번호
+- commit 메세지 : [문제 출처(플랫폼)] 날짜 / 문제명 / 문제번호
 - description : 문제 주소 (option)
 - 터미널에서 작성법:
 ```
-git commit -m "[BOJ] Hello World / 브론즈5 / 12345" -m "https://www.acmicpc.net/problem/2557"
+git commit -m "[BOJ] 20231103 / Hello World / 12345"
 ```
-- 코드 수정 후 commit할 경우 commit 메세지: [문제 출처(플랫폼)] 문제이름 / 난이도 / 문제번호-update
+- 코드 수정 후 commit할 경우 commit 메세지: [문제 출처(플랫폼)] 날짜 / 문제명 / 문제번호-update
 ```
-git commit -m "[BOJ] Hello World / 브론즈5 / 12345-update" -m "https://www.acmicpc.net/problem/2557"
+git commit -m "[BOJ] 20231103 / Hello World / 12345-update"
 ```
 - 플랫폼 작성법 통일 :
   - [BOJ] - 백준
