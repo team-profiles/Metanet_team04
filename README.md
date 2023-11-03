@@ -35,7 +35,7 @@ git commit -m "[BOJ] 20231103 / Hello World / 12345-update"
   - [SEA] - 삼성SW Expert Academy
   - [ETC] - 그외
 ## PR 규칙✅
-- PR 제목: [문제 출처(플랫폼)] 문제이름 / 난이도 / 문제번호
+- PR 제목: [문제 출처(플랫폼)] 날짜 / 문제명 / 문제번호
 - [BOJ] 20231103 / Hello World / 12345
 
 ## 코드리뷰 규칙(일요일 한정)✅
