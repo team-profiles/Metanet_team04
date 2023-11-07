@@ -1,4 +1,8 @@
-ArrayList<Integer> arrayList = new ArrayList<>();
+import java.util.*;
+
+public class Solution {
+    public int[] solution(int []arr) {
+        ArrayList<Integer> arrayList = new ArrayList<>();
         int num=10;
         for (int a : arr){
             if (num!=a){
@@ -11,3 +15,6 @@ ArrayList<Integer> arrayList = new ArrayList<>();
         for (int i=0; i<arrayList.size();i++){
             answer[i] = arrayList.get(i).intValue();
         }
+        return answer;
+    }
+}
